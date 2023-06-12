@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+    
+    <style>
+        h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    font-size: 70px;
+    font-weight: bold;
+}
+   p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px ;
+    font-weight: bold;
+  }
+  input{
+    font-size: 30px;
+  }
+   .tooltip {
+    text-align: center;
+  position: relative;
+ 
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-weight: bold;
+  
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+  text-align: center;
+  position: relative;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+  
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project Assignment Application </title>
+</head>
+<body bgcolor="#78b4b9"; >
+  
+  <h1 style=" text-align: center;">Project Assignment Application</h1>
+   <br>
+    <form action="result">
+      <div class="tooltip">
+        <span class="tooltiptext">
+      <pre>
+1. Java
+2. Python
+3. HTML
+4. CSS 
+5. Django
+6. AWS
+7. Oracle
+8. Docker
+9. Swift
+10. Hadoop
+        </pre>
+        </span>
+    <p>Tasks: <input type = "number" name = "task" required> </p><br>
+      </div>
+    <p>Experience: <input type = "number" name = "experience" required> </p><br> 
+    <br>
+    <p><input type ="submit" style=" background-color:black ; color:white"> </p>
+   
+
+   </form>
+   </div>
+
+  
+  
+</body>
+
+</html>
