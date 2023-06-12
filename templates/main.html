@@ -1,7 +1,9 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
 <head>
-  <!-- <link rel="stylesheet" href="style.css"> -->
+
+
+ 
     
     <style>
         h1{
@@ -64,13 +66,18 @@
   opacity: 1;
 }
 
+body {
+      background: url("https://github.com/charuu24/Project_Assignment/blob/main/background.jpg?raw=true");
+      background-size: cover;
+    }
+
 
   
     </style>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Project Assignment Application </title>
 </head>
-<body bgcolor="#78b4b9"; >
+<body >
   
   <h1 style=" text-align: center;">Project Assignment Application</h1>
    <br>
@@ -90,9 +97,68 @@
 10. Hadoop
         </pre>
         </span>
-    <p>Tasks: <input type = "number" name = "task" required> </p><br>
+    
+
+    <!-- <label for="task" style="font-size:30px;">Task:</label>
+    <select  name="task" id="task">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3" disabled>3</option>
+        <option value="4" selected>4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7" >7</option>
+        <option value="8" >8</option>
+        <option value="9" >9</option>
+        <option value="10" >10</option>
+      </select>
+
       </div>
-    <p>Experience: <input type = "number" name = "experience" required> </p><br> 
+   
+
+    <label for="experience">Experience:</label>
+    <select name="experience" id="experience">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2" disabled>2</option>
+        
+      </select> -->
+
+
+      <div class="content">
+        <form action="result">
+            <div class="content">
+              <label for="task" style="font-size:30px;">Task:</label>
+              <select  name="task" style="font-size:20px" id="task">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3" >3</option>
+                  <option value="4" >4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7" >7</option>
+                  <option value="8" >8</option>
+                  <option value="9" >9</option>
+                  <option value="10" >10</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <label for="experience" style="font-size:30px" >Experience:</label>
+          <select name="experience" style="font-size:20px" id="experience">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2" >2</option>
+        
+      </select>
+            <br>
+            <br>
+            
+        </form>
+    </div>
+
+
+
     <br>
     <p><input type ="submit" style=" background-color:black ; color:white"> </p>
    
@@ -104,4 +170,89 @@
   
 </body>
 
-</html>
+</html> 
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project Assignment Application </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        background: #555;
+    }
+
+    form {
+        text-align: center;
+    }
+
+    #head h1 {
+        font-size: 60px;
+    }
+</style>
+
+
+
+<body class="head">
+    <h1 style=" text-align: center;">Project Assignment Application</h1>
+    <br>
+
+    <div class="tooltip">
+      <span class="tooltiptext">
+    <pre>
+1. Java
+2. Python
+3. HTML
+4. CSS 
+5. Django
+6. AWS
+7. Oracle
+8. Docker
+9. Swift
+10. Hadoop
+      </pre>
+      </span>
+
+    <div class="content">
+        <form action="result">
+            <div class="content">
+              <label for="task" style="font-size:30px;">Task:</label>
+              <select  name="task" id="task">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3" disabled>3</option>
+                  <option value="4" selected>4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7" >7</option>
+                  <option value="8" >8</option>
+                  <option value="9" >9</option>
+                  <option value="10" >10</option>
+                </select>
+            </div>
+            <br>
+            <br>
+            <label for="experience" >Experience:</label>
+          <select name="experience" id="experience">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2" disabled>2</option>
+        
+      </select>
+            <br>
+            <br>
+            <input type="submit">
+        </form>
+    </div>
+</body>
+
+</html> -->
